@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">A Internet</h1>
+    <small>e como ter o seu próprio site</small>
+
+    <h2>Aulas</h2>
+    <ul>
+        <li><a href="#historiaWeb">História da Web</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#servers">Servers</a></li>
+        <li><a href="#Hospedagem">Hospedagem de Sites</a></li>
+        <li><a href="#Links">Links Úteis</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="historiaWeb">História da Web</h2>
+
+    <h3 id="HWOInicio">O Início</h3>
+    <p>
+        Joseph Carl Robnett Licklider cria a teoria sobre uma rede galática que permitia conexão de todas as 
+        pessoas. Após ser contratado pela DARPA graças a sua teoria, a DARPA começou a pesquisar e depois de um tempo desenvolveu a 
+        ARPANET, uma predecessora da Internet.
+    </p>
+    <p>
+        A ARPANET usava um Sistema de Comunicação em Pacotes que eram enviados um a um. E usavam nós, que
+        eram pontos de intersecção de informações funcionando como "checkpoints" (eram parecidos com os roteadores 
+        que temos hoje em dia).
+    </p>
+
+    <h3>Primeira Conexão (e queda de conexão)</h3>
+    <p>
+        A primeira conexão aconteceu em <b>29/10/1969</b> e também a primeira queda de
+        conexão, a primeira mensagem transmitida foi "lo" (seria "login" se não 
+        fosse pela "queda" de conexão)
+    </p>
+
+    <h3>Como chegamos até aqui?</h3>
+
+    <p>
+        Com o passar do tempo houve a criação de inúmeras sub-redes, para diversos
+         fins, porém não havia nada muito amigável para o público geral, cada um 
+         fazia o seu "site" da sua forma. Vendo isso 
+         <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> 
+         em 1989 decidiu 
+         usar hipertexto junto com o protocolo 
+         <a href="https://www.hostinger.com/br/tutoriais/tcp-ip#O_Que_e_TCPIP" target="_blank" rel="noopener noreferrer">TCP/IP</a> 
+         para criar a <abbr title="World Wide Web">WWW</abbr>
+    </p>
+
+    <p>
+        Lee também foi responsável por criar o primeiro navegador que se chamava 
+        WorldWideWeb e criou o 
+        <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener noreferrer">primeiro site</a>
+         da Internet.
+    </p>
+    
+    <hr>
+
+    <h2 id="clients">O que são Clients?</h2>
+        <p>
+            Client é o nome dado aos computadores que acessam e possibilitam ao usuário
+             desfrutar dos recursos do servidor acessado. 
+        </p>
+        
+        <h3>Navegadores</h3>
+        <p>
+            Os navegadores são a forma pela qual o usuário é capaz de visualizar a página 
+            html, eles vão na internet e baixam a página e são responsáveis por otimizar o 
+            acesso a aquela página, e por interpretar os códigos, os estilos, e aplicar tudo isso
+             no HTML.
+        </p>
+        <p>
+            Cada navegador tem o seu jeito de interpretar uma página web, dizemos isso, pois 
+            nem todos os navegadores vão dar suporte imediato para uma tag nova específica, 
+            e isso gera problemas com a compatibilidade, apesar de tudo, isso não é um 
+            problema que o torne o site inutilizável, já que a maioria dos sites utilizam tags 
+            básicas e que a maioria dos navegadores já oferecem suporte. Se um navegador 
+            vai dar suporte ou não, depende da versão que o usuário está usando que pode ou 
+            não incluir o suporte.
+        </p>
+
+    <hr>
+
+    <h2 id="servers">O que são Servers?</h2>
+    <p>
+        São máquinas que geralmente possuem alto poder de processamento e muito 
+        espaço de armazenamento, e servem para fornecer serviços para o usuário.
+    </p>
+    <h3>Tipos de Servidores:</h3>
+    <p>
+        <ul>
+            <li>De Arquivos: Armazenam arquivos para que os clients possam acessa-los 
+                posteriormente.</li>
+
+            <br>
+
+            <li>De Segurança (Firewall): Geralmente usado para impedir acessos externos.</li>
+
+            <br>
+
+            <li>De Streaming: Servidores feitos para guardar vídeos e por mandá-los para o 
+                usuário de maneira rápida e otimizada, para que o usuário possa ir consumindo 
+                o conteúdo.</li>
+
+            <br>
+
+            <li>De E-mail: Responsáveis por armazenar e-mails e gerenciá-los.</li>
+
+            <br>
+
+            <li>Web: Armazenam páginas web, mais especificamente os arquivos HTML, CSS 
+                e Javascript que são responsáveis por compôr a página web.</li>
+
+            <br>
+
+            <li><abbr title="Domain Name Service">DNS</abbr>: Servidor com uma lista de domínios
+                devidamente relacionados com os endereços IP do servidor que está 
+                armazenando os arquivos do site.</li>
+
+            <br>
+
+            <li>Proxy: Responsável por mediar a comunicação entre o Client e a 
+                internet, muito usado em empresas para impedir que os funcionários 
+                acessem sites perigosos, dando mais segurança para a empresa.
+                <ul>
+                    <li>
+                        Em alguns casos ele pode impedir que um site que não esteja 
+                        na lista de bloqueio, de ser aberto para o usuário (ele bloqueia 
+                        a resposta do site), então se algo do tipo ocorrer o primeiro 
+                        passo é usar os dados móveis para checar se é só na rede com proxy 
+                        ou se é um problema do site em si.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+
+    <p>
+        Um servidor não necessariamente precisa ser um servidor acessível apenas via 
+        internet, qualquer computador pode ser um servidor, você pode usar uma conexão 
+        local mesmo para acessar e mandar dados para o seu servidor.
+    </p>
+
+    <p>
+        Quando temos vários servidores em um local para servir um ou mais serviços aos 
+        usuários, chamamos este local de Data Center.
+    </p>
+
+    <hr>
+
+    <h2 id="Hospedagem">Hospedagem de Sites</h2>
+    <ol>
+        <li>Registrar o domínio
+            <ul>
+                <li>
+                    Sempre procure registrar o domínio antes de qualquer coisa, 
+                    se outro registrar o mesmo domínio que você quer usar, você terá 
+                    que comprar o domínio dessa pessoa.</li>
+                <li>Sugestão de lugar para registrar o seu domínio: <a href="https://registro.br"><br>Registro.br</a></li>
+            </ul>
+        </li>
+        <br>
+        <li>Encontrar uma empresa de Hospedagem
+            <ul>
+                <li>Um mesmo servidor pode ser usado para mais de um servidor (Email 
+                    e Web, por exemplo)
+                    <ul>
+                        <li>Isso pode deixar o site mais lento, pois o processamento do 
+                            computador fica ocupado com os outros serviços. O ideal é ter 
+                            uma máquina para cada serviço (um para armazenar e-mails e outro 
+                            para guardar os arquivos do site).</li>
+                    </ul>
+                </li>
+                <li>
+                    Certificado SSL: Responsável por servir como a base para a criptografia 
+                    dos sites que usam o protocolo HTTPS, assim mesmo que alguém consiga acessar
+                    os dados do site, ele terá descriptografar os dados para poder usa-los.
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Registrar o endereço DNS do servidor onde você planeja hospedar o site, no 
+            domínio.
+        </li>
+        <br>
+        <li>Hospedar o site no Servidor contratado usando o 
+            <abbr title="File Transfer Protocol">FTP</abbr>
+            <ul>
+                <li>O servidor contratado fornecerá os dados para acessar o servidor (via FTP)</li>
+                <li>Recomendação de programa para facilitar: Filezilla</li>
+                <br>
+                <li>FTP - Conexão para enviar e receber arquivos, uma conexão direta com o servidor.</li>
+            </ul>
+        </li>
+        
+    </ol>
+
+    <hr>
+
+    <h2 id="Links">Links Úteis</h2>
+    <ol>
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/ARPANET" target="_blank" rel="noopener noreferrer">
+                Artigo sobre a ARPANET - Wikipedia
+            </a>
+        </li>
+
+        <li>
+            <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" rel="noopener noreferrer">
+                Artigo sobre Tim Berners-Lee - Wikipedia
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.hostinger.com/br/tutoriais/tcp-ip" target="_blank" rel="noopener noreferrer">
+                Artigo sobre o Protocolo TCP/IP - Hostinger
+            </a>
+        </li>
+
+        <li>
+            <a href="https://en.wikipedia.org/wiki/J._C._R._Licklider" target="_blank" rel="noopener noreferrer">
+                Biografia de Joseph Carl Licklider - Wikipedia
+            </a>
+            <details>em inglês e algumas outras línguas</details>
+        </li>
+
+        <li>
+            <a href="https://artigos.valuehost.com.br/glossario/o-que-e-cliente-web/" target="_blank" rel="noopener noreferrer">
+                Artigo sobre Cliente Web - Valuehost
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.melhoreshospedagem.com/tipos-de-servidores/" target="_blank" rel="noopener noreferrer">
+               Artigo sobre Servidores - Melhores Hospedagem
+            </a>
+            <details>
+                Contém muitos outros tipos de servidores, e explica de forma 
+                simples como funciona a relação cliente e servidor e as 
+                funções de cada tipo de servidor e os seus usos.
+            </details>
+        </li>
+
+        <li>
+            <a href="https://roadmap.sh/frontend" target="_blank" rel="noopener noreferrer">
+                Roadmap Frontend - Roadmap.sh
+            </a>
+        </li>
+
+    </ol>
+
+</body>
+</html>
