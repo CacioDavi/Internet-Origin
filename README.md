@@ -1,5 +1,5 @@
 # A Origem da Internet
-Fui desafiado a criar uma página HTML que contivesse o conteúdo passado nas aulas de HTML, e foi isso que eu fiz.
+Fui desafiado a criar uma página HTML que contivesse o conteúdo passado nas aulas, e foi isso que eu fiz.
 A página como está atualmente lhe explicará:
 
   - [X] De onde veio a ideia da internet
