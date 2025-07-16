@@ -1,11 +1,7 @@
 # A Origem da Internet
-<<<<<<< HEAD
 
 ## Conteúdo
-Fui desafiado a criar uma página HTML que contivesse o conteúdo passado nas aulas de HTML, e foi isso que eu fiz.
-=======
 Fui desafiado a criar uma página HTML que contivesse o conteúdo passado nas aulas, e foi isso que eu fiz.
->>>>>>> e78ca1d02e121d3cc77e93da4c7ceac90ca77330
 A página como está atualmente lhe explicará:
 
   - [X] De onde veio a ideia da internet
