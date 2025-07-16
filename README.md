@@ -20,7 +20,7 @@ A página como está atualmente lhe explicará:
 <h4>Autoria</h4>
 <blockquote>
   <em>Projeto por: Cácio Davi</em>
-  <em>Projeto para uma formação HTML da 
+  <p>Projeto para uma formação HTML da 
     <a href="https://www.dio.me/">DIO</a>
-  </em>
+  </p>
 </blockquote>
